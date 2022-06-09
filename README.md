@@ -6,14 +6,14 @@ The inspiration for the design of the website was heavily inspired by a [Fronten
 # Screenshots
 
 Desktop View
-![Desktop][https://github.com/notkshitijsingh/responsive-website-with-menu/blob/main/screenshots/desktop.png]
+![Desktop][screenshots/desktop.png]
 
 Mobile View
-![Mobile][https://github.com/notkshitijsingh/responsive-website-with-menu/blob/main/screenshots/mobile.png]
+![Mobile][screenshots/mobile.png]
 
 Desktop View: Active
-![Desktop-Active][https://github.com/notkshitijsingh/responsive-website-with-menu/blob/main/screenshots/desktop-active.png]
+![Desktop-Active][screenshots/desktop-active.png]
 
 
 Mobile View: Active
-![Mobile-Active][https://github.com/notkshitijsingh/responsive-website-with-menu/blob/main/screenshots/mobile-active.png]
+![Mobile-Active][screenshots/mobile-active.png]
