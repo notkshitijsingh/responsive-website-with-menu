@@ -6,14 +6,14 @@ The inspiration for the design of the website was heavily inspired by a [Fronten
 # Screenshots
 
 Desktop View
-![Desktop][screenshots/desktop.png]
+![Desktop](screenshots/desktop.png)
 
 Mobile View
-![Mobile][screenshots/mobile.png]
+![Mobile](screenshots/mobile.png)
 
 Desktop View: Active
-![Desktop-Active][screenshots/desktop-active.png]
+![Desktop-Active](screenshots/desktop-active.png)
 
 
 Mobile View: Active
-![Mobile-Active][screenshots/mobile-active.png]
+![Mobile-Active](screenshots/mobile-active.png)
