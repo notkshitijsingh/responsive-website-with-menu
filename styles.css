@@ -1,0 +1,461 @@
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.menu {
+    width: 96%;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    overflow: auto;
+}
+
+.menu .logo {
+    height: auto;
+    width: 6%;
+}
+
+.menu .options {
+    padding-left: 3%;
+    color: rgb(105, 105, 105);
+    width: 40%;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.menu .options a {
+    padding: 4%;
+    transition: 0.3s;
+}
+
+.menu .options a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.menu .options a:focus {
+    color: black;
+}
+
+.menu .options .drop-down .arrow-down {
+    position: absolute;
+    top: 6%;
+}
+
+.menu .user {
+    margin-left: 39%;
+}
+
+.menu .user .login {
+    color: rgb(105, 105, 105);
+    margin-right: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.menu .user .login:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.menu .user .register {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid rgb(105, 105, 105);
+    color: rgb(105, 105, 105);
+    background: white;
+    margin-left: 15px;
+    margin-top: -10px;
+    transition: 0.3s;
+
+}
+.menu .user .register:hover {
+    color: black;
+    cursor: pointer;
+    border-color: black;
+}
+
+.menu .menu-mobile {
+    display: none;
+}
+
+.main-mobile {
+    display: none;
+}
+
+.main {
+    display: flex;
+}
+
+.main .left {
+    width: 40%;
+    padding-left: 9%;
+    padding-top: 5%;
+}
+
+.main .left .heading {
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.main .left .para {
+    width: 90%;
+    font-size: 21px;
+    color: rgb(105, 105, 105);
+    margin-top: 4%;
+    line-height: 1.6;
+}
+
+.main .hero {
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.btn {
+    margin-top: 5%;
+}
+
+.btn .learn {
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn .learn:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.partners {
+   width: 100%;
+   display: inline-block;
+   margin-top: 15%;
+}
+
+.partners .databiz {
+    width: 20%;
+    padding-right: 5%;
+}
+
+.partners .audiophile {
+    width: 14%;
+    padding-right: 5%;
+}
+
+.partners .meet {
+    width: 20%;
+    padding-right: 5%;
+}
+
+.partners .maker {
+    width: 20%;
+}
+
+.drop-down-box-features {
+    z-index: 1;
+    width: 8%;
+    height: 0;
+    overflow: hidden;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-left: -3%;
+    position: absolute;
+    display: none;
+    padding: 20px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    -webkit-animation: slideF 0.8s ease 0s forwards;
+    -ms-animation: slideF 0.8s ease 0s forwards;
+    animation: slideF 0.8s ease 0s forwards;
+}
+
+.drop-down-box-features a {
+    float: left;
+    padding: 1%;
+}
+
+@-webkit-keyframes slideF {
+    from {height: 0;}
+    to {height: 110px;}
+}
+
+@-ms-keyframes slideF {
+    from {height: 0;}
+    to {height: 110px;}
+}
+
+@keyframes slideF {
+    from {height: 0px;}
+    to {height: 110px;}
+}
+
+.drop-down-box-company {
+    z-index: 1;
+    width: 8%;
+    height: 0;
+    overflow: hidden;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-left: -3%;
+    position: absolute;
+    display: none;
+    padding: 20px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    -webkit-animation: slideC 0.8s ease 0s forwards;
+    -ms-animation: slideC 0.8s ease 0s forwards;
+    animation: slideC 0.8s ease 0s forwards;
+}
+
+.drop-down-box-company a {
+    float: left;
+    padding: 1%;
+}
+
+@-webkit-keyframes slideC {
+    from {height: 0;}
+    to {height: 60px}
+}
+
+@-ms-keyframes slideC {
+    from {height: 0;}
+    to {height: 60px}
+}
+
+@keyframes slideC {
+    from {height: 0px;}
+    to {height: 60px;}
+}
+
+.mobile-partners {
+    display: none;
+}
+
+.mobile-sidebar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-right: -80.5px;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .menu .options {
+        display: none;
+    }
+
+    .menu .user {
+        display: none;
+    }
+
+    .menu .logo {
+        width: 20%;
+        height: auto;
+    }
+
+    .menu .menu-mobile {
+        width: 10%;
+        display: block;
+        margin-left: 51%;
+    }
+
+    .main-mobile {
+        display: block;
+    }
+
+    .main-mobile .hero {
+        width: 83.8%;
+        height: auto;
+        padding: 0%;
+        margin-top: 5%;
+        margin-left: -8px;
+    }
+
+    .main-mobile .heading {
+        font-weight: 700;
+        width: 80%;
+        margin-top: 8%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main-mobile .para {
+        width: 80%;
+        margin-top: 7%;
+        font-size: 14px;
+        color: rgb(105, 105, 105);
+        text-align: center;
+    }
+
+    .main-mobile .learn {
+        display: block;
+        margin-top: 7%;
+        margin-left: 23%;
+        align-items: center;
+    }
+
+    .main-mobile .learn:active {
+        background: white;
+        border: 1px solid black;
+    }
+
+    .mobile-partners {
+        display: block;
+        margin-top: 7%;
+        width: 82%;
+    }
+
+    .mobile-partners .databiz {
+        width: 20%;
+        padding-right: 5%;
+        padding-left: 3%;
+    }
+    
+    .mobile-partners .audiophile {
+        width: 14%;
+        padding-right: 5%;
+    }
+    
+    .mobile-partners .meet {
+        width: 20%;
+        padding-right: 5%;
+    }
+    
+    .mobile-partners .maker {
+        width: 20%;
+    }
+
+    .mobile-sidebar {
+        display: none;
+        overflow: hidden;
+        z-index: 2;
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        top:0%;
+        right: 0%;
+        background-color: whitesmoke;
+        -webkit-animation: slideMOpen 0.8s ease 0s forwards;
+        -ms-animation: slideMOpen 0.8s ease 0s forwards;
+        animation: slideMOpen 0.8s ease 0s forwards;
+    }
+
+    @-webkit-keyframes slideMOpen {
+        from {width: 0;}
+        to {width: 250px}
+    }
+    
+    @-ms-keyframes slideMOpen {
+        from {width: 0;}
+        to {width: 250px}
+    }
+    
+    @keyframes slideMOpen {
+        from {width: 0px;}
+        to {width: 250px;}
+    }
+
+    .mobile-sidebar .cross-bar {
+        width: 250px;
+        height: auto;
+        display: inline-block;
+    }
+
+    .mobile-sidebar .cross-bar .cross {
+        float: right;
+        padding: 20px;
+    }
+
+    .navigation-bar {
+        padding: 20px;
+    }
+
+    .navigation-bar a {
+        line-height: 2;
+        color: rgb(105, 105, 105);
+        transition: 0.3s;
+    }
+
+    .navigation-bar a:focus {
+        color: black;
+    }
+
+    .navigation-bar .mobile-drop-down {
+        display: none;
+        overflow: hidden;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        -webkit-animation: slideX 0.8s ease 0s forwards;
+        -ms-animation: slideX 0.8s ease 0s forwards;
+        animation: slideX 0.8s ease 0s forwards;
+    }
+
+    @-webkit-keyframes slideX {
+        from {height: 0;}
+        to {height: 110px;}
+    }
+
+    @-ms-keyframes slideX {
+        from {height: 0;}
+        to {height: 110px;}
+    }
+
+    @keyframes slideX {
+        from {height: 0px;}
+        to {height: 110px;}
+    }
+
+    .mobile-user {
+        position: absolute;
+        bottom: 3%;
+        height: 100px;
+        width: 250px;
+        display: inline;
+    }
+
+    .mobile-user a {
+        color: rgb(105, 105, 105);
+        margin-left: 100px;
+    }
+
+    .mobile-user button {
+        margin-top: 20px;
+        margin-left: 25px;
+        padding: 10px;
+        background: white;
+        font-size: 16px;
+        color: rgb(105, 105, 105);
+        border: 1px solid rgb(105, 105, 105);
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    .mobile-user button:active {
+        background: black;
+        border-color: black;
+        color: white;
+    }
+}

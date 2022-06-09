@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script src="dropDowns.js"></script>
+
+  <title>Intro section with dropdown navigation</title>
+</head>
+<body>
+  <div class="menu">
+    <img class="logo" src="images/logo.svg">
+    <nav class="options">
+      <a class="drop-down" onclick="features()">Features <img class="arrow-down" src="images/icon-arrow-down.svg" id="features-arrow"></a>
+      <div class="drop-down-box-features" id="features-drop-down">
+        <a><img src="images/icon-todo.svg"> &nbsp; Todo List</a><br>
+        <a><img src="images/icon-calendar.svg"> &nbsp; Calendar</a><br>
+        <a><img src="images/icon-reminders.svg"> &nbsp; Reminders</a><br>
+        <a><img src="images/icon-planning.svg"> &nbsp; Planning</a>
+      </div>
+      <a class="drop-down" onclick="company()">Company <img class="arrow-down" src="images/icon-arrow-down.svg" id="company-arrow"></a>
+      <div class="drop-down-box-company" style="margin-left: 9%; width: 6%;" id="company-drop-down">
+        <a>History</a><br>
+        <a>Our Team</a><br>
+        <a>Blog</a>
+      </div>
+      <a>Careers</a>
+      <a>About</a>
+    </nav>
+    <div class="user">
+      <a class="login">Login</a>
+      <button class="register">Register</button>
+    </div>
+    <div class="menu-mobile">
+      <img src="images/icon-menu.svg" class="icon-menu" onclick="openSidebar()">
+    </div>
+  </div>
+  <div class="main-mobile">
+    <img src="images/image-hero-mobile.png" class="hero">
+    <div class="heading">Make remote work</div>
+      <div class="para">Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</div>
+      <div class="btn">
+        <button class="learn">Learn more</button>
+      </div>
+  </div>
+  <div class="main">
+    <div class="left">
+      <div class="heading">Make remote work</div>
+      <div class="para">Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</div>
+      <div class="btn">
+        <button class="learn">Learn more</button>
+      </div>
+      <div class="partners">
+        <img class="databiz" src="images/client-databiz.svg">
+        <img class="audiophile" src="images/client-audiophile.svg">
+        <img class="meet" src="images/client-meet.svg">
+        <img class="maker" src="images/client-maker.svg">
+      </div>
+    </div>
+    <img class="hero" src="images/image-hero-desktop.png">
+  </div>
+  <div class="mobile-partners">
+    <img class="databiz" src="images/client-databiz.svg">
+    <img class="audiophile" src="images/client-audiophile.svg">
+    <img class="meet" src="images/client-meet.svg">
+    <img class="maker" src="images/client-maker.svg">
+  </div>
+  <div class="mobile-sidebar" id="sidebar-menu">
+    <div class="cross-bar" id="cross-bar">
+      <img id="cross" class="cross" src="images/icon-close-menu.svg" onclick="closeSidebar()">
+    </div>
+    <nav class="navigation-bar">
+      <a class="features-mobile" onclick="featuresM()">Features &nbsp;<img src="images/icon-arrow-down.svg" class="arrow-mobile" id="features-mobile-icon"></a><br>
+      <div class="mobile-drop-down" id="features-mobile">
+        <a><img src="images/icon-todo.svg"> &nbsp; Todo List</a><br>
+        <a><img src="images/icon-calendar.svg"> &nbsp; Calendar</a><br>
+        <a><img src="images/icon-reminders.svg"> &nbsp; Reminders</a><br>
+        <a><img src="images/icon-planning.svg"> &nbsp; Planning</a>
+      </div>
+      <a class="company-mobile" onclick="companyM()">Company &nbsp;<img src="images/icon-arrow-down.svg" class="arrow-mobile" id="company-mobile-icon"></a><br>
+      <div class="mobile-drop-down" id="company-mobile">
+        <a>History</a><br>
+        <a>Our Team</a><br>
+        <a>Blog</a>
+      </div>
+      <a>Careers</a><br>
+      <a>About</a>
+    </nav>
+    <div class="mobile-user">
+      <a>Login</a><br>
+      <button>Register</button>
+    </div>
+  </div>
+</body>
+</html>
